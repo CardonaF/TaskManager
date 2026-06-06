@@ -38,6 +38,9 @@ h1{
     margin-bottom: 15px;
     color: black;
 }
+p{
+    color: black;
+}
 
 #contador{
     font-weight: bold;
