@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Task Manager</h1>
+
+        <p>Total de tareas: <span id="contador">0</span></p>
+
+        <input type="text" id="tarea" placeholder="Ingrese la tarea">
+        <select id="categoria">
+            <option value="Junior">Junior 🌱</option>
+            <option value="Semi Senior">Semi Senior 🚀</option>
+            <option value="Senior">Senior 👑</option>
+        </select>
+        <button id="agregar">Agregar</button>
+    
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Categoría</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
